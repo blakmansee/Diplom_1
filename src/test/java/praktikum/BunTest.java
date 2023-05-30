@@ -23,6 +23,10 @@ public class BunTest {
         return new Object[][]{
                 {"Флюоресцентная булка R2-D3", 988},
                 {"Краторная булка N-200i", 1255f},
+                {"Бесплатная булка", 0},
+                {"Отрицательная булка", -1},
+                {null, 999}
+
         };
     }
 
@@ -40,5 +44,4 @@ public class BunTest {
     public void getNameReturnCorrectName() {
         assertEquals(expectedName, bulochka.getName());
     }
-
 }
